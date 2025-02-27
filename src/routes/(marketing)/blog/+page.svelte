@@ -24,9 +24,7 @@
       />
     </a>
   </div>
-  <div class="text-lg text-center">
-    A blog about the Popup City in Montenegro
-  </div>
+  <div class="text-lg text-center">A blog about the School</div>
 
   {#each sortedBlogPosts as post}
     <a href={post.link}>

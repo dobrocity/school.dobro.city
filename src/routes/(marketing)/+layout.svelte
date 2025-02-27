@@ -11,17 +11,19 @@
 
 <div class="navbar bg-base-100 container mx-auto">
   <div class="flex-1">
-    <a class="btn btn-ghost normal-case text-xl" href="/">{WebsiteName}</a>
+    <a class="btn btn-ghost normal-case text-xl" href="https://dobro.city"
+      >DOBRO</a
+    >
   </div>
   <div class="flex-none">
     <ul class="menu menu-horizontal px-1 hidden sm:flex font-bold text-lg">
       <li class="md:mx-4">
         <a
-          href="https://github.com/rinat-enikeev/city.methodology"
+          href="https://github.com/dobrocity/school.dobro.city"
           class="border border-primary">★ us on Github</a
         >
       </li>
-      <li class="md:mx-2"><a href="/blog">Blog</a></li>
+      <!-- <li class="md:mx-2"><a href="/blog">Blog</a></li> -->
       <!-- <li class="md:mx-2"><a href="/pricing">Pricing</a></li> -->
       <!-- <li class="md:mx-2"><a href="/account">Account</a></li> -->
       <li class="md:mx-0">
@@ -62,13 +64,13 @@
         tabindex="0"
         class="menu menu-lg dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-bold"
       >
-        <li><a href="/blog">Blog</a></li>
+        <!-- <li><a href="/blog">Blog</a></li> -->
         <!-- <li><a href="/pricing">Pricing</a></li> -->
         <!-- <li><a href="/account">Account</a></li> -->
         <li><a href="/search">Search</a></li>
         <li>
           <a
-            href="https://github.com/rinat-enikeev/city.methodology"
+            href="https://github.com/dobrocity/school.dobro.city"
             class="border border-primary">★ us on Github</a
           >
         </li>
@@ -96,20 +98,18 @@
       <a class="link link-hover my-1" href="/contact_us">Contact Us</a>
       <a
         class="link link-hover my-1"
-        href="https://github.com/rinat-enikeev/city.methodology">Github</a
+        href="https://github.com/dobrocity/school.dobro.city">Github</a
       >
     </nav>
     <aside>
       <span class="footer-title opacity-80">Stellar</span>
       <a
         class="max-w-[260px]"
-        href="https://stellar.expert/explorer/public/account/GDJSY7FCYCIPF5VRFV3H7QLLWH4F2MFQXSXNZQKH35J57AFKI4276QDF"
+        href="https://stellar.expert/explorer/public/account/GCSEBNMPITGXAXCXXPGASH3XWV7BHUUQXA4CGGKA6K32SZSQ2DDESCHO"
       >
-        <div class="font-bold text-3xl mb-1">6QDF</div>
+        <div class="font-bold text-3xl mb-1">SCHO</div>
         <div class="font-medium mb-3">Check out our Stellar</div>
-        <div class="font-light">
-          Transparent and open source cofounding process
-        </div>
+        <div class="font-light">Transparent and open source</div>
         <div class="link text-sm font-bold mt-2">Learn More</div>
       </a>
     </aside>

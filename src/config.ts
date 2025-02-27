@@ -1,5 +1,5 @@
-export const WebsiteName: string = "Popup City"
-export const WebsiteBaseUrl: string = "https://methodology.city"
+export const WebsiteName: string = "School"
+export const WebsiteBaseUrl: string = "https://school.dobro.city"
 export const WebsiteDescription: string =
-  "Popup city in Montenegro. By adventurers, for adventurers."
+  "School. By adventurers, for adventurers."
 export const CreateProfileStep: boolean = true

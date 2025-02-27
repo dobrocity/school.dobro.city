@@ -79,12 +79,12 @@
   >
     <div class="px-6">
       <h1 class="text-2xl lg:text-4xl font-bold mb-4">Contact Us</h1>
-      <p class="text-lg">Talk to one of our cofounders:</p>
+      <p class="text-lg">Talk to one of our teammates:</p>
       <ul class="list-disc list-outside pl-6 py-4 space-y-1">
         <li class="">Terms and conditions</li>
+        <li class="">How to learn</li>
+        <li class="">How to apply</li>
         <li class="">How to contribute</li>
-        <li class="">How to invest</li>
-        <li class="">How to use the Stellar</li>
       </ul>
       <p>Once you complete the form, we'll reach out to you! *</p>
       <p class="text-sm pt-8">
