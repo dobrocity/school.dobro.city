@@ -17,7 +17,7 @@
 </script>
 
 <svelte:head>
-  <title>DOBRO</title>
+  <title>{WebsiteName}</title>
   <meta name="description" content={WebsiteDescription} />
   <!-- eslint-disable-next-line svelte/no-at-html-tags -->
   {@html jsonldScript}
