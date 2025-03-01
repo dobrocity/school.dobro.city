@@ -4,46 +4,53 @@
 
   type PlanFeatureRow = {
     name: string
-    freeIncluded?: boolean
-    proIncluded?: boolean
-    freeString?: string
-    proString?: string
+    auditorIncluded?: boolean
+    studentIncluded?: boolean
+    alumniIncluded?: boolean
+    auditorString?: string
+    studentString?: string
+    alumniString?: string
     header?: boolean
   }
 
   const planFeatures: PlanFeatureRow[] = [
     {
-      name: "Section 1",
+      name: "Content",
       header: true,
     },
     {
-      name: "Feature 1",
-      freeIncluded: true,
-      proIncluded: true,
+      name: "Courses",
+      auditorIncluded: true,
+      studentIncluded: true,
+      alumniIncluded: true,
     },
     {
-      name: "Feature 2",
-      freeIncluded: false,
-      proIncluded: true,
+      name: "Tutorials",
+      auditorIncluded: false,
+      studentIncluded: true,
+      alumniIncluded: true,
     },
     {
-      name: "Feature 3",
-      freeString: "3",
-      proString: "Unlimited",
+      name: "Guides",
+      auditorIncluded: false,
+      studentString: "1",
+      alumniIncluded: true,
     },
     {
-      name: "Section 2",
+      name: "Communication",
       header: true,
     },
     {
-      name: "Feature 4",
-      freeIncluded: true,
-      proIncluded: true,
+      name: "Comments",
+      auditorIncluded: true,
+      studentIncluded: true,
+      alumniIncluded: true,
     },
     {
-      name: "Feature 5",
-      freeIncluded: false,
-      proIncluded: true,
+      name: "Questions",
+      auditorIncluded: false,
+      studentIncluded: true,
+      alumniIncluded: true,
     },
   ]
 </script>
@@ -56,7 +63,7 @@
 <div class="min-h-[70vh] pb-8 pt-[5vh] px-4">
   <h1 class="text-3xl font-bold text-center">Pricing</h1>
   <h2 class="text-xl text-center text-slate-500 mt-1 pb-3">
-    Totally free, scale to millions of users
+    Free to learn, paid to get the most out of the School
   </h2>
 
   <div class="w-full my-8">
@@ -67,49 +74,44 @@
         <div class="collapse collapse-arrow join-item border border-primary">
           <input type="radio" name="faq-accordion" />
           <div class="collapse-title text-lg font-medium">
-            Is this template free to use?
-          </div>
-          <div class="collapse-content">
-            <p>Yup! This template is free to use for any project.</p>
-          </div>
-        </div>
-        <div class="collapse collapse-arrow join-item border border-primary">
-          <input type="radio" name="faq-accordion" />
-          <div class="collapse-title text-lg font-medium">
-            Why does a free template have a pricing page?
+            Is the School free to use?
           </div>
           <div class="collapse-content">
             <p>
-              The pricing page is part of the boilerplate. It shows how the
-              pricing page integrates into the billing portal and the Stripe
-              Checkout flows.
+              Yes, the School is free to use. You can sign up and start learning
+              immediately.
             </p>
           </div>
         </div>
         <div class="collapse collapse-arrow join-item border border-primary">
           <input type="radio" name="faq-accordion" />
           <div class="collapse-title text-lg font-medium">
-            What license is the template under?
-          </div>
-          <div class="collapse-content">
-            <p>The template is under the MIT license.</p>
-          </div>
-        </div>
-        <div class="collapse collapse-arrow join-item border border-primary">
-          <input type="radio" name="faq-accordion" />
-          <div class="collapse-title text-lg font-medium">
-            Can I try out purchase flows without real a credit card?
+            Why does a free School have a pricing page?
           </div>
           <div class="collapse-content">
             <p>
-              Our demo page <a href="https://dobro.city" class="link"
-                >dobro.city</a
-              > has a functional demo page, using Stripe's test environment.
+              In order to grow sustainably, we need to provide a good experience
+              for our users. This includes providing a good experience for our
+              teachers and speakers.
             </p>
-            <p class="mt-4">
-              You can use the credit card number 4242 4242 4242 4242 with any
-              future expiry date to test the payment and upgrade flows.
-            </p>
+          </div>
+        </div>
+        <div class="collapse collapse-arrow join-item border border-primary">
+          <input type="radio" name="faq-accordion" />
+          <div class="collapse-title text-lg font-medium">
+            Will the prices increase over time?
+          </div>
+          <div class="collapse-content">
+            <p>Yes, we reserve the right to increase prices over time.</p>
+          </div>
+        </div>
+        <div class="collapse collapse-arrow join-item border border-primary">
+          <input type="radio" name="faq-accordion" />
+          <div class="collapse-title text-lg font-medium">
+            Can I try out School without real a credit card?
+          </div>
+          <div class="collapse-content">
+            <p>Yes, you can try out the School without a credit card.</p>
           </div>
         </div>
       </div>
@@ -144,7 +146,7 @@
 
     <h1 class="text-2xl font-bold text-center mt-16">Plan Features</h1>
     <h2 class="text-xl text-center text-slate-500 mt-1 pb-3">
-      Example feature table
+      Features are subject to change.
     </h2>
 
     <div class="overflow-visible mx-auto max-w-xl mt-4">
@@ -154,23 +156,24 @@
         >
           <tr>
             <th></th>
-            <th class="text-center">Free</th>
-            <th class="text-center">Pro</th>
+            <th class="text-center">Auditor</th>
+            <th class="text-center">Student</th>
+            <th class="text-center">Alumni</th>
           </tr>
         </thead>
         <tbody>
           {#each planFeatures as feature}
             {#if feature.header}
               <tr class="bg-base-200 font-bold">
-                <td colspan="3">{feature.name} </td>
+                <td colspan="4">{feature.name} </td>
               </tr>
             {:else}
               <tr class="relative">
                 <td>{feature.name} </td>
                 <td class="text-center">
-                  {#if feature.freeString}
-                    {feature.freeString}
-                  {:else if feature.freeIncluded}
+                  {#if feature.auditorString}
+                    {feature.auditorString}
+                  {:else if feature.auditorIncluded}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       class="w-8 h-8 ml-2 inline text-success"
@@ -187,9 +190,28 @@
                   {/if}
                 </td>
                 <td class="text-center">
-                  {#if feature.proString}
-                    {feature.proString}
-                  {:else if feature.proIncluded}
+                  {#if feature.studentString}
+                    {feature.studentString}
+                  {:else if feature.studentIncluded}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-8 h-8 ml-2 inline text-success"
+                    >
+                      <use href="#checkcircle" />
+                    </svg>
+                  {:else}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-[26px] h-[26px] inline text-base-200"
+                    >
+                      <use href="#nocircle" />
+                    </svg>
+                  {/if}
+                </td>
+                <td class="text-center">
+                  {#if feature.alumniString}
+                    {feature.alumniString}
+                  {:else if feature.alumniIncluded}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       class="w-8 h-8 ml-2 inline text-success"
