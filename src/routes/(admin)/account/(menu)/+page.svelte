@@ -12,7 +12,6 @@
 
 <div class="flex flex-col items-center justify-center min-h-screen">
   <p class="text-gray-600">
-    🚧 This dashboard is currently under construction. Check back soon for
-    updates!
+    Start with the <a href="/account/stellar" class="link">Into Stellar</a> course
   </p>
 </div>
