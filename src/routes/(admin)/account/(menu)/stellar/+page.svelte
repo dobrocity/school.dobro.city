@@ -10,80 +10,120 @@
   <title>Into Stellar</title>
 </svelte:head>
 
-<div class="prose max-w-none">
-  <h2 class="text-xl font-semibold mt-6 mb-3">What is Stellar Blockchain?</h2>
-  <p>
-    Stellar is an open-source, decentralized payment protocol that enables fast,
-    cross-border transactions between any pair of currencies. Unlike many other
-    blockchains, Stellar was designed specifically for financial applications,
-    making it ideal for:
-  </p>
-  <ul class="list-disc pl-6 my-3">
-    <li>Cross-border payments and remittances</li>
-    <li>Creating digital representations of any currency</li>
-    <li>Micropayments with minimal fees</li>
-    <li>Banking the unbanked with accessible financial tools</li>
-  </ul>
-  <p>
-    Stellar transactions typically settle in 3-5 seconds and cost a fraction of
-    a cent, making it one of the most efficient blockchain networks available
-    today.
-  </p>
-
-  <h2 class="text-xl font-semibold mt-6 mb-3">
-    Creating Your Stellar Wallet with DoBro
-  </h2>
-  <p>
-    To start using Stellar, you'll need a wallet. DoBro Wallet is a
-    user-friendly mobile application that makes managing your Stellar assets
-    simple and secure.
-  </p>
-
-  <h3 class="text-lg font-medium mt-4 mb-2">Step 1: Download DoBro Wallet</h3>
-  <p>Install DoBro Wallet from the Google Play Store:</p>
-  <div>
-    <a
-      href="https://play.google.com/store/apps/details?id=city.dobro.wallet"
-      target="_blank"
-      rel="noopener noreferrer"
-      class="inline-block"
+<div class="mb-4">
+  <a href="/account" class="btn btn-sm btn-outline">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-5 w-5 mr-1"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
     >
-      <img
-        alt="Get it on Google Play"
-        src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
-        class="h-16"
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M10 19l-7-7m0 0l7-7m-7 7h18"
       />
-    </a>
+    </svg>
+    Back to Classroom
+  </a>
+</div>
+
+<div class="prose max-w-none">
+  <h1 class="text-2xl font-bold mb-4">Stellar Blockchain Course</h1>
+
+  <p>
+    Welcome to our Stellar blockchain course. This program is designed to
+    introduce you to the fundamentals of the Stellar network and its
+    applications in financial systems and community development.
+  </p>
+
+  <div class="my-6">
+    <h2 class="text-xl font-semibold">Meet Your Tutor: Rinat Enikeev</h2>
+    <div class="flex items-center gap-4 mb-4">
+      <img
+        src="https://dobro.city/images/team/rinat.jpeg"
+        alt="Rinat Enikeev"
+        class="w-24 h-24 rounded-full object-cover"
+      />
+      <div>
+        <h3 class="text-lg font-medium">Rinat Enikeev</h3>
+        <p class="text-sm">Developer & Educator</p>
+      </div>
+    </div>
+    <p>
+      Throughout this course, Rinat will guide you through both theoretical
+      concepts and hands-on exercises to ensure you develop a solid
+      understanding of the Stellar ecosystem.
+    </p>
   </div>
 
-  <h3 class="text-lg font-medium mt-4 mb-2">Step 2: Create a New Wallet</h3>
-  <ol class="list-decimal pl-6 my-3">
-    <li>Open the DoBro Wallet app</li>
-    <li>Tap "Add account"</li>
-    <li>Tap "Create Account"</li>
-    <li>Optionally set a password for an account</li>
-    <li>Tap on "Create Account" button</li>
-    <li>Backup your secret key</li>
-    <li>Tap on "Click to reveal secret key" button</li>
-    <li>Write down or copy your secret key</li>
-    <li>
-      <strong>Important:</strong> Your secret key is the only way to restore your
-      wallet if you lose access. Never share it with anyone and keep it in a safe
-      place offline.
-    </li>
-    <li>Tap on "Done" button</li>
-  </ol>
-  <p
-    class="bg-yellow-50 p-3 rounded-md border border-yellow-200 text-yellow-800"
-  >
-    <strong>Important:</strong> Your secret key is the only way to restore your wallet
-    if you lose access. Never share it with anyone and keep it in a safe place offline.
-  </p>
+  <div class="my-6">
+    <h2 class="text-xl font-semibold">What You'll Learn</h2>
+    <ul class="list-disc pl-6 my-3">
+      <li>
+        Core concepts of the Stellar blockchain and its unique consensus
+        mechanism
+      </li>
+      <li>Setting up and managing Stellar wallets</li>
+      <li>Creating and managing assets on the Stellar network</li>
+      <li>Implementing cross-border payment solutions</li>
+      <li>Developing applications on the Stellar platform</li>
+      <li>Best practices for security and compliance</li>
+    </ul>
+  </div>
 
-  <h3 class="text-lg font-medium mt-4 mb-2">Step 3: Fund Your Wallet</h3>
-  <p>
-    To activate your Stellar wallet, it needs to be funded with a minimum
-    balance of 1 XLM. You can receive XLM from another user or purchase it from
-    a cryptocurrency exchange.
-  </p>
+  <div class="my-6">
+    <h2 class="text-xl font-semibold">Getting Started</h2>
+    <p>
+      To begin your journey with Stellar, you'll need to set up a Stellar
+      wallet. Our first practical module will guide you through this process
+      step by step.
+    </p>
+    <div class="mt-4">
+      <a href="/account/stellar/wallet" class="btn btn-primary">
+        Set Up Your Stellar Wallet →
+      </a>
+    </div>
+    <p class="mt-3 text-sm">
+      This introductory module covers wallet creation, security best practices,
+      and your first transactions on the Stellar network.
+    </p>
+  </div>
+
+  <div class="my-6">
+    <h2 class="text-xl font-semibold">Course Structure</h2>
+    <p>
+      The course is divided into modules that build upon each other, combining
+      theoretical knowledge with practical exercises. You'll progress from basic
+      concepts to advanced applications, with opportunities to apply your
+      learning through real-world projects.
+    </p>
+    <p>
+      By the end of this course, you'll have the skills to leverage Stellar
+      blockchain technology for financial applications, community projects, and
+      innovative solutions to real-world problems.
+    </p>
+  </div>
+</div>
+
+<div class="mb-4">
+  <a href="/account" class="btn btn-sm btn-outline">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-5 w-5 mr-1"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M10 19l-7-7m0 0l7-7m-7 7h18"
+      />
+    </svg>
+    Back to Classroom
+  </a>
 </div>
