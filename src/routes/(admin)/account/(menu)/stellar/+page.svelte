@@ -106,6 +106,23 @@
       innovative solutions to real-world problems.
     </p>
   </div>
+  <div class="my-6">
+    <h2 class="text-xl font-semibold">Advanced Features</h2>
+    <p>
+      Once you're comfortable with the basics of Stellar, you can explore more
+      advanced features that make the network powerful for financial
+      applications.
+    </p>
+    <div class="mt-4">
+      <a href="/account/stellar/multisig" class="btn btn-primary">
+        Learn About Multisignature →
+      </a>
+    </div>
+    <p class="mt-3 text-sm">
+      Discover how multisignature accounts can enhance security and enable
+      collaborative control of Stellar assets for businesses and organizations.
+    </p>
+  </div>
 </div>
 
 <div class="mb-4">
