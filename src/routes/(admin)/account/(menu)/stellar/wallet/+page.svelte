@@ -106,6 +106,21 @@
     balance of 1 XLM. You can receive XLM from another user or purchase it from
     a cryptocurrency exchange.
   </p>
+
+  <h3 class="text-lg font-medium mt-4 mb-2">Next Steps</h3>
+  <p>
+    Once you've set up and funded your Stellar wallet, you're ready to explore
+    more advanced features of the Stellar network.
+  </p>
+  <div class="mt-4">
+    <a href="/account/stellar/multisig" class="btn btn-primary">
+      Learn About Multisignature →
+    </a>
+  </div>
+  <p class="mt-3 text-sm">
+    Discover how multisignature accounts can enhance security and enable
+    collaborative control of Stellar assets for businesses and organizations.
+  </p>
 </div>
 
 <div class="mb-4 mt-6">
