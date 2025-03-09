@@ -60,8 +60,8 @@
   </p>
 
   <h3 class="text-lg font-medium mt-4 mb-2">Step 1: Download DoBro Wallet</h3>
-  <p>Install DoBro Wallet from the Google Play Store:</p>
-  <div>
+  <p>Install DoBro Wallet from your device's app store:</p>
+  <div class="flex flex-wrap gap-4 items-center">
     <a
       href="https://play.google.com/store/apps/details?id=city.dobro.wallet"
       target="_blank"
@@ -72,6 +72,18 @@
         alt="Get it on Google Play"
         src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
         class="h-16"
+      />
+    </a>
+    <a
+      href="https://apps.apple.com/ee/app/dobro-wallet/id6482980775"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="inline-block"
+    >
+      <img
+        alt="Download on the App Store"
+        src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg"
+        class="h-12"
       />
     </a>
   </div>
