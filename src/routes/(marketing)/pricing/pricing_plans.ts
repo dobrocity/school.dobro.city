@@ -18,9 +18,9 @@ export const pricingPlans = [
     id: "student",
     name: "Student",
     description: "A plan for students to get access to courses and tests",
-    price: "€5",
+    price: "€50",
     priceIntervalName: "per month",
-    stripe_price_id: "price_1QxNUXLtQekolYk0ahm77OUH",
+    stripe_price_id: "price_1R5nACLtQekolYk0Zby2AeRK",
     stripe_product_id: "prod_Rr5fRTUf0jR5Lb",
     features: [
       "Everything in Auditor",
@@ -32,9 +32,9 @@ export const pricingPlans = [
     id: "alumni",
     name: "Alumni",
     description: "A plan for alumni to get access to all content",
-    price: "€15",
+    price: "€150",
     priceIntervalName: "per month",
-    stripe_price_id: "price_1QxNVVLtQekolYk0pSYDyQzN",
+    stripe_price_id: "price_1R5n9tLtQekolYk0K7dtUx3Q",
     stripe_product_id: "prod_Rr5gccqxGjwCro",
     features: [
       "Everything in Student",
